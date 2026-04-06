@@ -1,5 +1,5 @@
 name: my_project
-version: 1.0
+version: 2.0
 profile: my_project
 
 model-paths: ["models"]
