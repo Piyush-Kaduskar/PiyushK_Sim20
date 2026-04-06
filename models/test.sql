@@ -1,1 +1,7 @@
-update employees set emp_name="Piyush" where emp_id=1;
+select
+    emp_id,
+    emp_name,
+    department,
+    salary,
+    salary + 5000 as bonus
+from employees
