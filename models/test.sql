@@ -4,4 +4,4 @@ select
     department,
     salary,
     salary + 5000 as bonus
-from employees
+from "PIYUSHK_DB"."PUBLIC"."EMPLOYEES"
