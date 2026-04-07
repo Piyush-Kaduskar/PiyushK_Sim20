@@ -1,6 +1,5 @@
 {{ config(
-    materialized = 'table',
-    alias = 'PiyushKTestSIM17'
+    materialized = 'table'
 ) }}
 
 select
@@ -19,4 +18,4 @@ select
         else 'Standard Salary'
     end as salary_category,
     to_varchar(joining_date, 'DD-MON-YYYY') as formatted_joining_date
-from "PIYUSHK_DB"."PUBLIC"."EMPLOYEES"
+from PIYUSHK_DB.PUBLIC.EMPLOYEES
