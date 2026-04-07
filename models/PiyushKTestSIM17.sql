@@ -1,6 +1,6 @@
 {{ config(
     materialized = 'table',
-    alias = 'PiyushKTestSIM17'     -- This forces the exact name you want
+    alias = 'PiyushKTestSIM17'
 ) }}
 
 select
